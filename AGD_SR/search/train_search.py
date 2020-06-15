@@ -236,6 +236,8 @@ def main(pretrain=True):
                         logger.add_scalar("arch/flops_weight", architect.flops_weight, epoch+1)
                         logging.info("arch_flops_weight = " + str(architect.flops_weight))
 
+    save(model, os.path.join(config.save, 'weights.pt'))
+    
     if update_arch:
         torch.save(state, os.path.join(config.save, "arch.pt"))
 
