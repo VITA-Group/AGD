@@ -1,7 +1,7 @@
 # AutoGAN-Distiller
 Yonggan Fu,  Wuyang Chen, Haotao Wang, Haoran Li, Yingyan Lin, Zhangyang Wang
 
-in ICML 2020.
+Accepted at ICML 2020 [Paper Link](https://arxiv.org/abs/2006.08198).
 
 ## Overview
 We propose **AutoGAN-Distiller (AGD)** Framework, among the first AutoML frameworks dedicated to GAN compression, and is also among a few earliest works that explore AutoML for GANs. 
@@ -35,6 +35,17 @@ Evaluation (Set5, Set14, BSD100, Urban100): [SR-eval-dataset](http://vllab.ucmer
 `AGD_ST` and `AGD_SR` are the source codes for unpaired image translation task and super resolution task respectively. The codes for pretrain, search, train from scratch and eval are in the `AGD_ST/search` and `AGD_SR/search` directory.
 
 We use `AGD_ST/search` as an example. All the configurations during pretrain, search, train from scratch, eval are in `config_search.py`, `config_train.py` and `config_eval.py` respectively. Please specify the target dataset `C.dataset` and change the dataset path `C.dataset_path` in the three config files to the real paths on your PC.
+
+### Prerequisites
+See `env.yml` for the complete conda environment. Create a new conda environment:
+```
+conda env create -f env.yml
+conda activate pytorch
+```
+In partiqular, if the thop package encounters some version conflicts, please specify the thop version:
+```
+pip install thop==0.0.31.post1912272122
+```
 
 ### Step 1: Pretrain the Supernet
 * Switch to the `search` directory:
