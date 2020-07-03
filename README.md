@@ -1,4 +1,4 @@
-# AutoGAN-Distiller
+# AutoGAN-Distiller: Searching to Compress Generative Adversarial Networks
 Yonggan Fu,  Wuyang Chen, Haotao Wang, Haoran Li, Yingyan Lin, Zhangyang Wang
 
 Accepted at ICML 2020 [[Paper Link]](https://arxiv.org/abs/2006.08198).
