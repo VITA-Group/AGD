@@ -86,7 +86,7 @@ The result images are saved at `./output/eval/`.
 
 ### Two differences in Super Resolution tasks
 #### 1st Difference 
-Please download the checkpoint of original ESRGAN (teacher model) from [pretrained ESRGAN](https://drive.google.com/drive/folders/1aHYDGFHLvmsF9URhyvMZ2D-StvTy283H?usp=sharing) and move it to the directory `AGD_SR/search/ESRGAN/`.
+Please download the checkpoint of original ESRGAN (teacher model) from [pretrained ESRGAN](https://drive.google.com/file/d/1tbcKu0Knpj6X7bb_mcm5sH8JJVKva7sr/view?usp=sharing) and move it to the directory `AGD_SR/search/ESRGAN/`.
 
 #### 2nd Difference
 The step 3 is splitted into two steps, i.e., first pretrain the derived architecture with only content loss and then finetune with perceptual loss:
@@ -97,7 +97,7 @@ The step 3 is splitted into two steps, i.e., first pretrain the derived architec
 
 
 ## Pretrained Models
-Pretrained models are provided at [AGD_pretrained](https://drive.google.com/file/d/1eFXsyXgY-GBu9HaP2fay4zJ-9dBhF5G1/view?usp=sharing).
+Pretrained models are provided at [pretrained AGD](https://drive.google.com/drive/folders/1aHYDGFHLvmsF9URhyvMZ2D-StvTy283H?usp=sharing).
 
 To evaluate the pretrained models, please copy the network architecture definition and pretrained weights to the corresponding directories:
 ```
