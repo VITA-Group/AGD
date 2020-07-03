@@ -97,7 +97,7 @@ The step 3 is splitted into two steps, i.e., first pretrain the derived architec
 
 
 ## Pretrained Models
-Pretrained models are provided at [AGD_pretrained](https://drive.google.com/file/d/16jPN3isuoH8X9Q2OsN038zCXMnaMA1yj/view?usp=sharing).
+Pretrained models are provided at [AGD_pretrained](https://drive.google.com/file/d/1eFXsyXgY-GBu9HaP2fay4zJ-9dBhF5G1/view?usp=sharing).
 
 To evaluate the pretrained models, please copy the network architecture definition and pretrained weights to the corresponding directories:
 ```
