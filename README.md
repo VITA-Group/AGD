@@ -1,7 +1,7 @@
 # AutoGAN-Distiller
 Yonggan Fu,  Wuyang Chen, Haotao Wang, Haoran Li, Yingyan Lin, Zhangyang Wang
 
-Accepted at ICML 2020 [Paper Link](https://arxiv.org/abs/2006.08198).
+Accepted at ICML 2020 [[Paper Link]](https://arxiv.org/abs/2006.08198).
 
 ## Overview
 We propose **AutoGAN-Distiller (AGD)** Framework, among the first AutoML frameworks dedicated to GAN compression, and is also among a few earliest works that explore AutoML for GANs. 
