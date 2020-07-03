@@ -50,7 +50,7 @@ C.num_workers = 4
 C.num_cell = 5
 C.op_per_cell = 5
 
-C.width_mult_list = [6./12, 8./12, 10./12, 1.]
+C.width_mult_list = [4./12, 6./12, 8./12, 10./12, 1.]
 
 C.quantize = False
 
@@ -66,4 +66,4 @@ C.real_measurement = False
 
 C.load_path = 'ckpt/search'
 
-C.ckpt = '/home/yf22/NasGAN-SR/search/ckpt/finetune-20200128-130540/weights_1349.pt'
+C.ckpt = 'ckpt/finetune/weights.pt'

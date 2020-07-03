@@ -73,7 +73,7 @@ C.grad_clip = 5
 C.num_cell = 5
 C.op_per_cell = 5
 
-C.width_mult_list = [6./12, 8./12, 10./12, 1.]
+C.width_mult_list = [4./12, 6./12, 8./12, 10./12, 1.]
 
 C.pretrain = False
 # C.pretrain = 'ckpt/finetune_pretrain/weights.pt'

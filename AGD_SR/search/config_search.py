@@ -79,7 +79,7 @@ C.pretrain = True
 C.prun_modes = 'arch_ratio'
 
 # C.width_mult_list = [4./12, 6./12, 8./12, 10./12, 1.]
-C.width_mult_list = [6./12, 8./12, 10./12, 1.]
+C.width_mult_list = [4./12, 6./12, 8./12, 10./12, 1.]
 
 C.loss_func = 'L1'
 

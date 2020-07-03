@@ -88,4 +88,4 @@ C.load_path = 'ckpt/search'
 
 C.real_measurement = False
 
-C.ckpt = ''
+C.ckpt = 'ckpt/finetune/weights.pt'
