@@ -106,3 +106,10 @@ cp weights.pt ckpt/finetune/
 ```
 
 then do the evaluation following step 4.
+
+
+## Our Related Work
+Please also check our concurrent work on a unified optimization framework combining model distillation, channel pruning and quantization for GAN compression:
+
+Haotao Wang, Shupeng Gui, Haichuan Yang, Ji Liu, and Zhangyang Wang. "All-in-One GAN Compression by Unified Optimization." ECCV, 2020. (Spotlight)
+\[[pdf](https://arxiv.org/pdf/2008.11062.pdf)\] \[[code](https://github.com/VITA-Group/GAN-Slimming)\]
