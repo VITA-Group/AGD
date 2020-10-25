@@ -26,7 +26,7 @@ We propose **AutoGAN-Distiller (AGD)** Framework, among the first AutoML framewo
 horse2zebra, zebra2horse, summer2winter, winter2summer: [Unpaired-dataset](https://drive.google.com/file/d/1HeL4YGtXF22nyIN3bDLI5WbhYhTYVYiv/view?usp=sharing)
 
 ### Super Resolution
-Training (DIV2K+Flickr2K): [SR-training-dataset](https://drive.google.com/file/d/1cGMxBwZF0FebHEjvf59L7ipDCeHWihcL/view?usp=sharing)
+Training (DIV2K+Flickr2K): [SR-training-dataset](https://github.com/xinntao/BasicSR/blob/master/docs/DatasetPreparation.md#DIV2K)
 
 Evaluation (Set5, Set14, BSD100, Urban100): [SR-eval-dataset](http://vllab.ucmerced.edu/wlai24/LapSRN/results/SR_testing_datasets.zip)
 
