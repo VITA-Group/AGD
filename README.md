@@ -23,7 +23,7 @@ We propose **AutoGAN-Distiller (AGD)** Framework, among the first AutoML framewo
 
 ## Datasets
 ### Unpaired Image Translation
-horse2zebra, zebra2horse, summer2winter, winter2summer: [Unpaired-dataset](https://drive.google.com/file/d/1L6wmLIOyRRfvwspoWG-7li-sEgXmN76i/view?usp=sharing)
+horse2zebra, zebra2horse, summer2winter, winter2summer: [Unpaired-dataset](https://drive.google.com/file/d/1HeL4YGtXF22nyIN3bDLI5WbhYhTYVYiv/view?usp=sharing)
 
 ### Super Resolution
 Training (DIV2K+Flickr2K): [SR-training-dataset](https://drive.google.com/file/d/1cGMxBwZF0FebHEjvf59L7ipDCeHWihcL/view?usp=sharing)
